@@ -1,0 +1,22 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "components": "ConnectorStreet/src/components",
+        "constants": "ConnectorStreet/src/constants",
+        "layouts": "ConnectorStreet/src/layouts",
+        "reducers": "ConnectorStreet/src/reducers",
+        "actions": "ConnectorStreet/src/actions",
+        "images": "ConnectorStreet/src/resources/images",
+        "fonts": "ConnectorStreet/src/resources/fonts",
+        "resources": "ConnectorStreet/src/resources",
+        "styles": "ConnectorStreet/src/styles",
+        "api": "ConnectorStreet/src/api",
+        "models": "ConnectorStreet/src/models",
+        "utils": "ConnectorStreet/src/utils"
+      }
+    }],
+    "transform-decorators-legacy"
+  ]
+}
